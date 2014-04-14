@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F4A460"
+   > <!-- android:background="#FFDAB9" -->
+
+    <RelativeLayout
+    	android:layout_height="48dp"
+    	android:layout_width="fill_parent"
+    	android:orientation="horizontal"
+    	android:gravity="center_vertical"
+    	android:background="@drawable/toptitle_bg"
+    >
+    	<TextView
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textColor="#FFFAF0"
+    		android:textSize="15sp"
+    		android:layout_centerInParent="true"
+    		android:text="@string/title"
+    	></TextView>
+    	<!-- <ImageButton
+    	    android:id="@+id/but_tologin"
+    		android:layout_width="40dp"
+    		android:layout_height="40dp"
+    		android:layout_marginRight="10dp"
+    		android:layout_alignParentRight="true"
+    		android:src="@drawable/focus"
+    	></ImageButton> -->
+    	<ImageView
+    	    android:id="@+id/but_tologin"
+    		android:layout_width="40dp"
+    		android:layout_height="40dp"
+    		android:layout_marginRight="10dp"
+    		android:layout_alignParentRight="true"
+    		android:src="@drawable/focus"
+    	></ImageView>
+    </RelativeLayout>
+
+     <GridView
+    	android:id="@+id/gv"
+    	android:layout_height="fill_parent"
+    	android:layout_width="fill_parent"
+    	android:numColumns="2" 
+    	android:horizontalSpacing="10dp"
+    	android:verticalSpacing="10dp"
+    	android:listSelector="@drawable/choose_bg"
+    	android:layout_marginTop="80dp"
+    	android:layout_marginBottom="60dp"
+    	android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp">
+    </GridView>
+ 
+</RelativeLayout>

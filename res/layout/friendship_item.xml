@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="50dp" >
+    
+
+     <ImageView
+        android:id="@+id/iv_fhuhead"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/defualt" />
+
+    <TextView
+        android:id="@+id/tv_fhname"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_fhuhead"
+        android:textColor="@color/blue"
+        android:text="TextView"/> 
+
+    <TextView
+        android:id="@+id/tv_fhdes"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_fhname"
+        android:layout_toRightOf="@+id/iv_fhuhead"
+        android:ellipsize="end"
+        android:singleLine="true" 
+        android:text="TextView" />
+    
+    
+</RelativeLayout>
